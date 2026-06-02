@@ -1,0 +1,3 @@
+Next-month oil production forecasting
+MAE: 0.0172 million Sm3
+R2: 0.9486
