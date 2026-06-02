@@ -1,4 +1,3 @@
-````md
 # Norwegian Production Analytics
 
 Real-world data science project analyzing Norwegian oil and gas field production data using Python, Pandas, Matplotlib, and scikit-learn.
@@ -23,21 +22,29 @@ Python, Pandas, NumPy, Matplotlib, scikit-learn, Git, GitHub
 
 ## How to Run
 
-```bash
-pip install -r requirements.txt
-python src/clean_data.py
-python src/eda.py
-python src/model.py
-````
+Clone the repository:
+
+    git clone https://github.com/milanakarimova/norwegian-production-analytics.git
+    cd norwegian-production-analytics
+
+Install dependencies:
+
+    pip install -r requirements.txt
+
+Run the pipeline:
+
+    python src/clean_data.py
+    python src/eda.py
+    python src/model.py
 
 ## Model Results
 
 The baseline next-month oil production forecasting model achieved:
 
-| Metric |              Value |
-| ------ | -----------------: |
-| MAE    | 0.0172 million Sm³ |
-| R²     |             0.9486 |
+| Metric | Value |
+|---|---:|
+| MAE | 0.0172 million Sm³ |
+| R² | 0.9486 |
 
 ## Visualizations
 
@@ -67,23 +74,18 @@ The baseline next-month oil production forecasting model achieved:
 
 ## Project Structure
 
-```text
-data/
-  raw/
-  processed/
-src/
-  clean_data.py
-  eda.py
-  model.py
-reports/
-  figures/
-requirements.txt
-README.md
-```
+    data/
+      raw/
+      processed/
+    src/
+      clean_data.py
+      eda.py
+      model.py
+    reports/
+      figures/
+    requirements.txt
+    README.md
 
 ## Portfolio Value
 
-The project demonstrates applied data science for petroleum production analytics, combining geoscience domain knowledge with Python-based data analysis, visualization, feature engineering, and machine learning.
-
-```
-```
+This project demonstrates applied data science for petroleum production analytics, combining geoscience domain knowledge with Python-based data analysis, visualization, feature engineering, and machine learning.
